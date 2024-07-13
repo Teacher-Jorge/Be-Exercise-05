@@ -10,13 +10,13 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(66, 0, 68);
     align-items: center;
 }
 
 .container {
     max-width: 360px;
-    height: 600px;
+    height: 700px;
     background-color: rgb(66, 0, 68);
     color: rgb(255, 255, 255);
     box-shadow: 2px 2px 5px rgb(105, 105, 105);
@@ -29,6 +29,7 @@ body {
 
 .heading-container {
     max-width: 360px;
+    height: 95px;
     font-family: 'Kanit';
     background-color: aliceblue;
     box-shadow: 2px 2px 5px rgb(105, 105, 105);
@@ -37,10 +38,16 @@ body {
     border-bottom: none;
 }
 
+.translate {
+    font-family: 'kanit';
+    font-size: 15px;
+    color: rgb(255, 94, 0);
+}
+
 .questions {
     margin-top: 10px;
     font-family: 'Kanit';
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
@@ -63,9 +70,8 @@ span {
     border-radius: 10px;
     font-size: 20px;
     font-family: 'Kanit';
-    font-weight: 500;
+    font-weight: 400;
     text-shadow: 1px 1px 1px black;
-    font-weight: 500;
 }
 
 .buttons:active {
@@ -73,7 +79,7 @@ span {
 }
 
 .listen {
-    width: 60px;
+    width: 30px;
     height: 30px;
     background-color: rgb(234, 0, 255);
     color: rgb(255, 255, 255);

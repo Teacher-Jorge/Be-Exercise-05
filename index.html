@@ -9,17 +9,21 @@
 
 <audio id="line1" src="line1.mp3"></audio>
 <audio id="line2" src="line2.mp3"></audio>
+<audio id="line3" src="line3.mp3"></audio>
+<audio id="line4" src="line4.mp3"></audio>
 <audio id="wrong" src="wrongSound.wav"></audio>
 <audio id="right" src="right.wav"></audio>
 <audio id="click" src="click.wav"></audio>
 <body>
     <div class="heading-container">
         <h2>Choose the correct option</h2>
+        <div id="translationA" class="translate"></div>
+        <div id="translationB" class="translate"></div>
     </div>
 
     <div class="container">
         
-
+        <!--CONVERSATION 01-->
         <div class="questions">
             <div class="lines"><span>A: </span>Hey, how <span class="answers" id="space1">___</span> you?</div>
             <div class="lines"><span>B:</span> I'm just fine, thanks.</div>
@@ -29,9 +33,25 @@
             <button class="buttons" id="answer1_am">am</button>
             <button class="buttons" id="answer1_is">is</button>
             <button class="buttons" id="answer1_are">are</button>
-            <button class="listen" id="listen1">Listen</button>
+            <button class="listen" id="listen1">L</button>
+            <button class="listen" id="translate1">T</button>
+        </div>
+         <!--CONVERSATION 02-->
+         <div class="questions">
+            <div class="lines"><span>A: </span><span class="answers" id="space2">___</span> you from Brazil?</div>
+            <div class="lines"><span>B:</span> Yes, I'm here on vacation.</div>
+        </div>
+
+        <div class="choices">
+            <button class="buttons" id="answer2_am">Am</button>
+            <button class="buttons" id="answer2_is">Is</button>
+            <button class="buttons" id="answer2_are">Are</button>
+            <button class="listen" id="listen2">L</button>
+            <button class="listen" id="translate2">T</button>
         </div>
     </div>
+       
+    
 
     <script src="script.js"></script>
 </body>
