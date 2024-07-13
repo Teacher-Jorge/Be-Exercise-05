@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,400;1,500&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.container {
+    max-width: 360px;
+    height: 600px;
+    background-color: rgb(66, 0, 68);
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgb(105, 105, 105);
+    text-align: center;
+    padding: 0px;
+    border: 1px solid rgb(0, 217, 255);
+    border-top: none;
+    margin-top: -10px;
+}
+
+.heading-container {
+    max-width: 360px;
+    font-family: 'Kanit';
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px rgb(105, 105, 105);
+    border: 1px solid rgb(0, 217, 255);
+    text-align: center;
+    border-bottom: none;
+}
+
+.questions {
+    margin-top: 10px;
+    font-family: 'Kanit';
+    font-size: 25px;
+    color: white;
+}
+
+span {
+    font-family: 'bangers';
+    color: yellow;
+}
+
+.answers {
+    font-family: 'Kanit';
+    font-weight: 500;
+}
+
+.buttons {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 153, 255);
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 500;
+}
+
+.buttons:active {
+    text-shadow: none;
+}
+
+.listen {
+    width: 60px;
+    height: 30px;
+    background-color: rgb(234, 0, 255);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 500;
+}
+
+.listen:active {
+    text-shadow: none;
+}
