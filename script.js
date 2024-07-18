@@ -115,6 +115,121 @@ translate2.addEventListener('click', function() {
     }, 4000);
 })
 
+//CONVERSATION 03
+let space3= document.getElementById('space3')
+let answer3_am = document.getElementById('answer3_am')
+let answer3_is = document.getElementById('answer3_is')
+let answer3_are = document.getElementById('answer3_are')
+let listen3 = document.getElementById('listen3')
+let translate3 = document.getElementById('translate3')
+
+
+answer3_am.addEventListener('click', function() {
+    audio_right.play()
+    answer3_am.style.backgroundColor = 'limegreen'
+    answer3_am.style.color = 'yellow'
+    space3.innerHTML = 'Am'
+    space3.style.color = 'limegreen'
+})
+
+answer3_are.addEventListener('click', function() {
+    audio_wrong.play()
+    answer3_are.style.backgroundColor = 'red'
+    answer3_are.style.color = 'yellow'
+    space3.innerHTML = 'Are'
+    space3.style.color = 'red'
+})
+
+answer3_is.addEventListener('click', function() {
+    audio_wrong.play()
+    answer3_is.style.backgroundColor = 'red'
+    answer3_is.style.color = 'yellow'
+    space3.innerHTML = 'Is'
+    space3.style.color = 'red'
+})
+
+listen3.addEventListener('click', function() {
+    audio_click.play()
+    let audio = document.getElementById('line5')
+    audio.play()
+    setTimeout(function() {
+        let audio = document.getElementById('line6')
+        audio.play()
+    }, 1600)
+
+    }
+)
+
+translate3.addEventListener('click', function() {
+    audio_click.play()
+    let translationA = document.getElementById('translationA')
+    translationA.textContent = 'A: Eu estou na sua classe?'
+    let translationB = document.getElementById('translationB')
+    translationB.textContent = 'B: Sim, nós estamos na mesma turma.'
+    setTimeout(function() {
+        translationA.textContent = ''
+        translationB.textContent = ''
+    }, 4000);
+})
+
+
+//CONVERSATION 04
+let space4= document.getElementById('space4')
+let answer4_am = document.getElementById('answer4_am')
+let answer4_is = document.getElementById('answer4_is')
+let answer4_are = document.getElementById('answer4_are')
+let listen4 = document.getElementById('listen4')
+let translate4 = document.getElementById('translate4')
+
+
+answer4_is.addEventListener('click', function() {
+    audio_right.play()
+    answer4_is.style.backgroundColor = 'limegreen'
+    answer4_is.style.color = 'yellow'
+    space4.innerHTML = 'Is'
+    space4.style.color = 'limegreen'
+})
+
+answer4_are.addEventListener('click', function() {
+    audio_wrong.play()
+    answer4_are.style.backgroundColor = 'red'
+    answer4_are.style.color = 'yellow'
+    space4.innerHTML = 'Are'
+    space4.style.color = 'red'
+})
+
+answer4_am.addEventListener('click', function() {
+    audio_wrong.play()
+    answer4_am.style.backgroundColor = 'red'
+    answer4_am.style.color = 'yellow'
+    space4.innerHTML = 'Am'
+    space4.style.color = 'red'
+})
+
+listen4.addEventListener('click', function() {
+    audio_click.play()
+    let audio = document.getElementById('line7')
+    audio.play()
+    setTimeout(function() {
+        let audio = document.getElementById('line8')
+        audio.play()
+    }, 1600)
+
+    }
+)
+
+translate4.addEventListener('click', function() {
+    audio_click.play()
+    let translationA = document.getElementById('translationA')
+    translationA.textContent = 'A: Esse assento está ocupado?'
+    let translationB = document.getElementById('translationB')
+    translationB.textContent = 'B: Não, esse assento está disponível.'
+    setTimeout(function() {
+        translationA.textContent = ''
+        translationB.textContent = ''
+    }, 4000);
+})
+
 
 
 
