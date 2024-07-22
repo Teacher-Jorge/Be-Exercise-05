@@ -14,7 +14,7 @@ body {
 
 .container {
     max-width: 360px;
-    height: 500px;
+    height: 480px;
     background-color: aliceblue;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -45,7 +45,7 @@ body {
 .questions {
     margin-top: 10px;
     font-family: 'Kanit';
-    font-size: 22px;
+    font-size: 25px;
     color: rgb(37, 134, 138);
 }
 
@@ -61,7 +61,7 @@ span {
 }
 
 .buttons {
-    width: 50px;
+    width: 60px;
     height: 30px;
     background-color: aliceblue;
     color: rgb(0, 153, 255);
@@ -79,7 +79,7 @@ span {
 }
 
 .listen {
-    width: 30px;
+    width: 40px;
     height: 30px;
     background-color: aliceblue;
     color: rgb(255, 72, 0);
